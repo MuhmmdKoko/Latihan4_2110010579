@@ -4,7 +4,8 @@ public class NilaiAkhir extends Mahasiswa {
     //membuat variabel
     int uts, uas, tugas;
 
-    public NilaiAkhir(int uts, int uas, int tugas) {
+    public NilaiAkhir(int uts, int uas, int tugas, String nama, String npm) {
+        super(nama, npm);
         this.uts = uts;
         this.uas = uas;
         this.tugas = tugas;

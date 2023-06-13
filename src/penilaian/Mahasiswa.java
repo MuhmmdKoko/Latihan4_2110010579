@@ -9,6 +9,11 @@ public class Mahasiswa {
         return nama;
     }
 
+    public Mahasiswa(String nama, String npm) {
+        this.nama = nama;
+        this.npm = npm;
+    }
+
     public void setNama(String nama) {
         this.nama = nama;
     }
